@@ -11,7 +11,7 @@ h1{
 h3{ 
 	  color: #BBDAFF;font-family: fantasy;
 	  font-style: italic; 
-	  font-size: 50px 	
+	  font-size: 50px; 	
 }
 a{
 	  width: 75px;
@@ -25,4 +25,5 @@ a{
 	  text-decoration: none;
 	  color:#000000; 
 	  background-color:#FF774B;
+	  font-stretch: expanded;
 }
