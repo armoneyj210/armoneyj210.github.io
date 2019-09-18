@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	background-color: #5491B3 ; 
+	background-color: #5491B3 ;
 }
 h1{
 	color: #BBDAFF;
@@ -8,8 +8,21 @@ h1{
 	font-family: fantasy;
 	font-size: 175px;
 } 
-p { 
+h3{ 
 	  color: #BBDAFF;font-family: fantasy;
 	  font-style: italic; 
 	  font-size: 50px 	
+}
+a{
+	  width: 75px;
+	  height: 25px;
+	  border: 2px solid #000000;
+	  display: inline-block;
+	  margin: 20px;
+}
+#cta {
+	  font-family: fantasy; 
+	  text-decoration: none;
+	  color:#000000; 
+	  background-color:#FF774B;
 }
