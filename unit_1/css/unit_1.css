@@ -1,6 +1,15 @@
 body {
+	text-align: center;
 	background-color: #5491B3 ; 
 }
-h1, p { 
-	  color: #BBDAFF;font-family: fantasy;} 	
+h1{
+	color: #BBDAFF;
+	font-weight: bold;
+	font-family: fantasy;
+	font-size: 175px;
+} 
+p { 
+	  color: #BBDAFF;font-family: fantasy;
+	  font-style: italic; 
+	  font-size: 50px 	
 }
