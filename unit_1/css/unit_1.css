@@ -1,7 +1,7 @@
 body {
-	background-color: purple; 
+	background-color: #5491B3 ; 
 }
-
-h1, p {
-	color: gold; 
+h1 { 
+	font-family: fantasy;  color: #BBDAFF;} p { font-family: Arnoldboecklin,fantasy;
+	color: #BBDAFF;   
 }
