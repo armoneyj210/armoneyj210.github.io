@@ -1,0 +1,54 @@
+body {
+	text-align: right;
+    background: url("https://i.imgur.com/sN5Maq9.jpg");
+    background-size: cover;
+}
+h1 {
+	color: #000;
+	font-weight: bold;
+	font-family: fantasy;
+	font-size: 75px;
+	text-align: right;
+} 
+h3 { 
+	  color: #000;
+	  font-family: fantasy;
+	  font-style: italic; 
+	  font-size: 50px;
+	  text-align: right; 		  
+}
+#cta {
+	  font-family: fantasy; 
+	  text-decoration: none;
+	  color:#000000; 
+	  background-color:#FF774B;
+	  font-stretch: expanded;
+	  text-align: center;
+	  width: 75px;
+	  height: 25px;
+	  border: 2px solid #000000;
+	  margin: 20px;
+}
+#slogan {
+	font-family: fantasy;
+	font-weight: 800;
+	font-style: italic;
+	text-align: right;
+	font-size: 50px;
+}
+.reg {
+	font-family: fantasy;
+	font-style: italic;
+	text-align: right;
+}
+.pups {
+	vertical-align: right;
+}
+.products {
+	font-style: italic;
+	font-family: fantasy;
+	text-align: right;
+	text-decoration: none;
+	color: #000;
+}
+			

@@ -1,6 +1,7 @@
 body {
 	text-align: center;
-	background-color: #5491B3 ;
+    background: url("https://i.imgur.com/fqnqoAK.jpg");
+    background-size: cover;
 }
 h1{
 	color: #BBDAFF;
@@ -26,4 +27,9 @@ h3{
 	  color:#000000; 
 	  background-color:#FF774B;
 	  font-stretch: expanded;
+}
+#slogan {
+	font-family: fantasy;
+	font-weight: 800;
+	font-style: italic;
 }
