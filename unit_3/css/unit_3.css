@@ -40,17 +40,11 @@ h3 {
 	font-family: fantasy;
 	font-style: italic;
 	text-align: right;
-}
-/*.pups {
-	vertical-align: right;*/
-}
-#product {
-	font-family: fantasy;
-	font-style: italic;
-	text-align: right;
 	text-decoration: none;
 	color: #000;
 }
+/*.pups {
+	vertical-align: right;*/
 ul{
 	list-style-type: none;
 }
