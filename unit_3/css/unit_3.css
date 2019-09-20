@@ -40,6 +40,9 @@ h3 {
 	font-family: fantasy;
 	font-style: italic;
 	text-align: right;
+	color: #000;
+}
+a {
 	text-decoration: none;
 	color: #000;
 }
