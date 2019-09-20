@@ -36,7 +36,7 @@ h3 {
 	text-align: right;
 	font-size: 50px;
 }
-.reg {
+#reg {
 	font-family: fantasy;
 	font-style: italic;
 	text-align: right;
@@ -44,7 +44,7 @@ h3 {
 /*.pups {
 	vertical-align: right;*/
 }
-.products {
+#products {
 	font-style: italic;
 	font-family: fantasy;
 	text-align: right;
