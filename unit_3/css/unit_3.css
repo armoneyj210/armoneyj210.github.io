@@ -44,11 +44,14 @@ h3 {
 /*.pups {
 	vertical-align: right;*/
 }
-#products {
-	font-style: italic;
+#product {
 	font-family: fantasy;
+	font-style: italic;
 	text-align: right;
 	text-decoration: none;
 	color: #000;
+}
+ul{
+	list-style-type: none;
 }
 			
