@@ -3,6 +3,10 @@ body {
 	text-align: right;
     background: url("https://i.imgur.com/sN5Maq9.jpg");
     background-size: cover;
+    font-family: Helvetica,sans-serif;
+    /*font-style: italic;*/
+	text-align: right;
+	color: #000;
 }
 h1 {
 	color: #000;
@@ -35,17 +39,12 @@ h3 {
 	font-family: 'Raleway', sans-serif;
 	text-align: right;
 	font-size: 50px;
-}
-.reg {
-	font-family: Helvetica,sans-serif;
-	/*font-style: italic;*/
-	text-align: right;
-	color: #000;
+	line-width: 1.25em;
 }
 .packpics {
-	width:="75" 
-	height:="75" 
-	vertical-align:"top"
+	width:=.75px; 
+	height:=75px; 
+	vertical-align: top;
 }
 a {
 	text-decoration: none;
