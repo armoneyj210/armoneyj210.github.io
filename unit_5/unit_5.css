@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
 body {
-    background: url("https://i.imgur.com/sN5Maq9.jpg");
-    background-size: cover;
+    /*background: url("https://i.imgur.com/sN5Maq9.jpg");
+    background-size: cover;*/
     font-family: Mansalva,cursive;;
     /*font-style: italic;*/
 	text-align: left;
 	color: #000;
 	font-size: 24px;
 }
-header{
+header {
+	background: #FFED74;
+}
+nav {
+	background: #E8C66A;
 }
 h1 {
 	color: #000;
@@ -78,4 +82,10 @@ ul{
 }
 #hline{
 	border: 3px black;
+}
+footer {
+	 background: #FF957E;
+}
+section {
+	background: #FFE2B8;
 }
