@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
 body {
-    background: url("https://i.imgur.com/sN5Maq9.jpg");
-    background-size: cover;
     font-family: Mansalva,cursive;;
     /*font-style: italic;*/
 	text-align: left;
 	color: #000;
 	font-size: 24px;
 }
-header{
+header {
+	background: #FFED74;
+}
+nav {
+	background: #E8C66A;
 }
 h1 {
 	color: #000;
 	/*font-family: fantasy;*/
 	font-size: 75px;
 	font-weight: black;
-
 } 
 h3 { 
 	  color: #000;
@@ -27,36 +28,42 @@ h3 {
 }
 .cta {
 	  font-family: fantasy;
-	  text-align: justify; 
+	  text-align: center; 
 	  text-decoration: none;
 	  color:#000000; 
 	  background-color:#FF774B;
-	  width: 100px;
-	  height: 25px;
 	  border: 2px solid #000000;
 	  margin: 20px;
+	  display: inline;
 }
 .slogan {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	font-size: 50px;
-	width: 6em;
+	width: 10em;
 }
 .aboutus{
-	width: 30em;
+	width:30em;
 	line-height: 1.3em;
 	font-family: Mansalva,cursive;
 	font-size: 24px;
+	text-align: center;
 }
 .packpics {
-	width:= "75"; 
-	height:= "75"; 
+	width: 75px;  
 	vertical-align: top;
-	padding: 25px;
 	border: 2px;
-	border-color: #000
-/*.names{
-	display: inline-flex;*/
+	border-color: #000;
+	border-style: solid;
+	display: inline-block;
+}
+.logo {
+	width: 75px;
+	border: 2px;
+	border-color: #000;
+	border-style: solid;
+	display: inline-block;
+	align: right;
 }
 .meetus{
 	text-align: center;
@@ -78,4 +85,21 @@ ul{
 }
 #hline{
 	border: 3px black;
+}
+footer {
+	 background: #FF957E;
+}
+section.title {
+	background: url("https://i.imgur.com/sN5Maq9.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: right;
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	width: 100%;
+	display: inline-block;
+}
+.propic {
+	width: 40%;
+	float: right;
 }
