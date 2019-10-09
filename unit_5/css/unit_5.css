@@ -119,8 +119,8 @@ footer {
 	 display: block;
 	 clear: both;
 	 outline: 2px solid black;
-	 margin:0;
-	 padding-top: 0;
+	 padding: 5px;
+	 line-height: 1.5em;
 }
 section.title {
 	background: url("https://i.imgur.com/sN5Maq9.jpg");
