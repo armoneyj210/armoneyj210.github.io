@@ -108,6 +108,8 @@ footer {
 	 display: block;
 	 clear: both;
 	 outline: 2px solid black;
+	 margin:0;
+	 padding-top: 0;
 }
 section.title {
 	background: url("https://i.imgur.com/sN5Maq9.jpg");
@@ -121,7 +123,12 @@ section.title {
 .propic {
 	width: 60%;
 	float: right;
-	display:block;
+	display: block;
+}
+.propic2 {
+	width: 45%;
+	display: block;
+	float: left;
 }
 div.whoweare{
 	background-color: #7AC0FF;
@@ -135,24 +142,28 @@ div.whoweare{
 	font-size: 1.5em;
 }
 .sec1{
-	float:left;
-	width:50%;
+	float: left;
 	display: inline-block;
 	background-color: #7AC0FF;
-	outline: 2px solid black;
-	padding-bottom: 50px;
+	width: 46%;
+	padding: 2%;
+	outline: 2px black solid;
+	height: 24em;
 	/*border: 2px;
 	border-color: #000;
-	border-style: solid;*/  
+	border-style: solid;
+	overflow: auto;  */
 }
 .sec2{
 	float: right;
-	width: 50%;
-	display:inline-block;
-	background-color: #7AC0FF;
+	display: inline-block;
+	background-color: #7AC0FF;	
+	width: 46%;
+	padding: 2%;
 	outline: 2px black solid;
-
+	height: 24em;
 	/*border: 2px;
 	border-color: #000;
-	border-style: solid;*/
+	border-style: solid;
+	overflow: auto;*/
 }
