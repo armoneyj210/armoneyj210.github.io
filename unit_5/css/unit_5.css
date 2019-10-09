@@ -11,6 +11,7 @@ header {
 	background-color: #7AC0FF;
 	display: block;
 	text-align: center;
+	outline: 2px black solid
 }
 nav {
 	/*background: #E8C66A;*/
@@ -20,6 +21,7 @@ h1 {
 	/*font-family: fantasy;*/
 	font-size: 75px;
 	font-weight: black;
+	padding:20px;
 } 
 h3 { 
 	  color: #000;
@@ -36,22 +38,28 @@ h3 {
 	  color:#000000; 
 	  background-color:#FF774B;
 	  border: 2px solid #000000;
-	  margin: 20px;
-	  display: inline;
+	  margin: 50px;
+	  padding: 5px;
+	  display:inline-block;
+	  
+	  float: right; 
 }
 .slogan {
 	font-family: 'Raleway', sans-serif;
-	text-align: center;
+	text-align: ;
 	font-size: 50px;
-	width: 10em;
+	width:10em;
 	display:inline-block;
+	float: right;
+	padding-top: 2em;
 }
 .aboutus{
 	/*width:30em;*/
-	line-height: 1.3em;
+	line-height: 1.7em;
 	font-family: Mansalva,cursive;
 	font-size: 24px;
 	text-align: left;
+	padding-top: 2em;
 }
 .products{
 	line-height: 1.3em;
@@ -96,9 +104,10 @@ ul{
 	text-align: left;
 	color: #99702E;
 	font-size: 24px;
-	line-height: 1.3em;
+	line-height: 2em;
 	font-weight: 200;
 	text-decoration: underline;
+	padding-top: 2em;
 }
 /*#hline{
 	border: 3px black solid;
@@ -119,16 +128,19 @@ section.title {
 	text-align: right;
 	margin:none;
 	outline: 2px solid black;
+	height: 24em;
 }
 .propic {
 	width: 60%;
 	float: right;
 	display: block;
+	padding:20px;
 }
 .propic2 {
 	width: 45%;
 	display: block;
 	float: left;
+	padding-top: 40px;
 }
 div.whoweare{
 	background-color: #7AC0FF;
@@ -149,6 +161,7 @@ div.whoweare{
 	padding: 2%;
 	outline: 2px black solid;
 	height: 24em;
+	line-height: 2.5em;
 	/*border: 2px;
 	border-color: #000;
 	border-style: solid;
@@ -162,8 +175,13 @@ div.whoweare{
 	padding: 2%;
 	outline: 2px black solid;
 	height: 24em;
+	line-height: 2.5em;
 	/*border: 2px;
 	border-color: #000;
 	border-style: solid;
 	overflow: auto;*/
+}
+.clearfix{
+	overflow: auto;
+	zoom:1;
 }
