@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
 body {
-    font-family: Mansalva,cursive;;
+    font-family: Mansalva,cursive;
     /*font-style: italic;*/
 	text-align: right;
 	color: #000;
@@ -11,7 +11,7 @@ header {
 	background-color: #7AC0FF;
 	display: block;
 	text-align: center;
-	outline: 2px black solid
+	outline: 2px black solid;
 }
 nav {
 	/*background: #E8C66A;*/
@@ -48,7 +48,6 @@ h3 {
 }
 .slogan {
 	font-family: 'Raleway', sans-serif;
-	text-align: ;
 	font-size: 50px;
 	width:10em;
 	display:inline-block;
