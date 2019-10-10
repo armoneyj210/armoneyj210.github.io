@@ -188,9 +188,13 @@ section.title {
 	overflow: auto;
 	zoom:1;
 }
-@media only screen and (min-width: 320px) and (max-width: 768px)  { .sec1, .sec2, .title, .slogan {float: none;
-																					max-width: auto;
-																					width:100%;}
+@media only screen and (min-width: 320px) and (max-width: 768px)  
+{ .sec1, .sec2, .title, .slogan 
+		{float: none;
+		 max-width: auto;
+		 width: 100%;
+		}
+}
 													   
 													  
 
