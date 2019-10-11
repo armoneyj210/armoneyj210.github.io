@@ -193,6 +193,7 @@ section.title {
 		{float: none;
 		 max-width: auto;
 		 width: 100%;
+		 padding-top: 0;
 		}
 }
 													   
