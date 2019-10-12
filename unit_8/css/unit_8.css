@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+body {
+    font-family: Mansalva,cursive;
+    /*font-style: italic;*/
+	text-align: right;
+	color: #000;
+	font-size: 24px;
+}
+header {
+	background-color: #7AC0FF;
+	display: block;
+	text-align: center;
+	outline: 2px black solid;
+}
+nav {
+	/*background: #E8C66A;*/
+}
+h1 {
+	color: #000;
+	/*font-family: fantasy;*/
+	font-size: 3em;
+	font-weight: 800;
+	padding:20px;
+} 
+h3 { 
+	  color: #000;
+	  font-family: 'Raleway', sans-serif;
+	  font-style: italic; 
+	  font-size: 2.25em;
+	  font-weight: bold;
+	  text-align: center; 		  
+}
+.cta {
+	  font-family: 'Raleway', sans-serif;
+	  text-align: center; 
+	  text-decoration: none;
+	  color:#000000; 
+	  background-color:#FF774B;
+	  border: 2px solid #000000;
+	  margin-right: 8em;
+	  margin-left: 3em;
+	  margin-top: 3em; 
+	  padding: 5px;
+	  display:inline-block;
+	  float: right;
+	  clear: both; 
+}
+.slogan {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.25em;
+	width:10em;
+	display:inline-block;
+	float: right;
+	padding-top: 2em;
+}
+.aboutus{
+	/*width:30em;*/
+	line-height: 1.7em;
+	font-family: Mansalva,cursive;
+	font-size: 1em;
+	text-align: left;
+	padding-top: 2em;
+}
+.products{
+	line-height: 1.3em;
+	font-family: Mansalva,cursive;
+	font-size: 1em;
+	color: #000;
+	text-align: left;
+	margin-left:20%;
+}
+.packpics {
+	width: 3.75em;  
+	vertical-align: top;
+	border: 2px;
+	border-color: #000;
+	border-style: solid;
+	display: inline-block;
+	float: left;
+	margin: 10px;
+	background-color: #7AC0FF;
+}
+.logo {
+	width: 3.75em;
+	border: 2px;
+	border-color: #000;
+	border-style: solid;
+	display: inline-block;
+	vertical-align: top;
+	margin:10px;
+}
+.meetus{
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+ul{
+	list-style-type: none;
+}
+.reg{
+	font-family: Mansalva,cursive;
+	text-align: left;
+	color: #99702E;
+	font-size: 1em;
+	line-height: 2em;
+	font-weight: 200;
+	text-decoration: underline;
+	padding-top: 2em;
+}
+/*#hline{
+	border: 3px black solid;
+}*/
+footer {
+	 background: #7AC0FF;
+	 display: block;
+	 clear: both;
+	 outline: 2px solid black;
+	 padding: 2%;
+	 line-height: 1.5em;
+}
+section.title {
+	background: url("https://i.imgur.com/sN5Maq9.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif; 
+	text-align: right;
+	margin:none;
+	outline: 2px solid black;
+	height: 24em;
+}
+.propic {
+	width: 60%;
+	float: right;
+	display: block;
+	padding:5%;
+}
+.propic2 {
+	width: 45%;
+	display: block;
+	float: left;
+	padding-top: 5%;
+}
+.whoweare{
+	background-color: #7AC0FF;
+	clear:both;
+	width: 100%;
+	height: 40%;
+}
+.email{
+	text-align: left;
+}
+.mtp{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+}
+.sec1{
+	float: left;
+	display: inline-block;
+	background-color: #7AC0FF;
+	width: 46%;
+	padding: 2%;
+	outline: 2px black solid;
+	height: 24em;
+	line-height: 2.5em;
+	/*border: 2px;
+	border-color: #000;
+	border-style: solid;
+	overflow: auto;  */
+}
+.sec2{
+	float: right;
+	display: inline-block;
+	background-color: #7AC0FF;	
+	width: 46%;
+	padding: 2%;
+	outline: 2px black solid;
+	height: 24em;
+	line-height: 2.5em;
+	/*border: 2px;
+	border-color: #000;
+	border-style: solid;
+	overflow: auto;*/
+}
+.clearfix{
+	overflow: auto;
+	zoom:1;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px)  
+{ .sec1, .sec2, .slogan {
+		 float: none;
+		 max-width: auto;
+		 width: 100%;
+		 padding-top: 0;
+		}
+  .title, .slogan {
+  		color: #7AC0FF;
+  		float: none;
+		max-width: auto;
+		width: 100%;
+		padding-top: 0;
+		text-shadow: 1px 1px 0 #000;
+	}	
+}
+													   
+													  
+
