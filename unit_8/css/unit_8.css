@@ -121,7 +121,7 @@ footer {
 	 padding: 2%;
 	 line-height: 1.5em;
 }
-section {
+section.open {
 	background: url("https://i.imgur.com/sN5Maq9.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -130,6 +130,7 @@ section {
 	margin:none;
 	outline: 2px solid black;
 	height: 24em;
+	clear: both;
 }
 .propic {
 	width: 60%;
@@ -188,8 +189,8 @@ section {
 	overflow: auto;
 	zoom:1;
 }
-@media only screen and (min-width: 320px) and (max-width: 768px)  
-{ .sec1, .sec2, .slogan {
+@media only screen and (min-width: 320px) and (max-width: 768px)   
+{ .sec1, .sec2,  {
 		 float: none;
 		 max-width: auto;
 		 width: 100%;
@@ -202,6 +203,7 @@ section {
 		width: 100%;
 		padding-top: 0;
 		text-shadow: 1px 1px 0 #000;
+		text-align: center;
 	}	
 }
 													   
