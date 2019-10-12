@@ -189,12 +189,20 @@ section.title {
 	zoom:1;
 }
 @media only screen and (min-width: 320px) and (max-width: 768px)  
-{ .sec1, .sec2, .title, .slogan 
-		{float: none;
+{ .sec1, .sec2, .slogan {
+		 float: none;
 		 max-width: auto;
 		 width: 100%;
 		 padding-top: 0;
 		}
+  .title, .slogan {
+  		color: #7AC0FF;
+  		float: none;
+		max-width: auto;
+		width: 100%;
+		padding-top: 0;
+		text-shadow: 1px 1px 0 #000;
+	}	
 }
 													   
 													  
