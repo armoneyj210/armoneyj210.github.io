@@ -190,11 +190,19 @@ section.open {
 	zoom:1;
 }
 @media only screen and (max-width: 768px)   
-{ .sec1, .sec2,  {
+{ 
+	body{
+		font-size: 24px;
+	}
+	.whoweare  {
 		 float: none;
 		 max-width: auto;
 		 width: 100%;
-		 padding-top: 0;
+		 padding: 0;
+		 line-height: .5em;
+		 font-size: .5em;
+		 display:inline;
+		 clear: both;
 		}
   .title, .slogan {
   		color: #7AC0FF;
@@ -204,6 +212,12 @@ section.open {
 		padding-top: 0;
 		text-shadow: 1px 1px 0 #000;
 		text-align: center;
+	}
+	footer{
+		clear: both;
+	}
+	.propic2 {
+		display: none;
 	}	
 }
 													   
