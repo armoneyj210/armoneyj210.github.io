@@ -185,6 +185,9 @@ section.open {
 	border-style: solid;
 	overflow: auto;*/
 }
+span{
+	text-decoration: underline;
+}
 .clearfix{
 	overflow: auto;
 	zoom:1;
