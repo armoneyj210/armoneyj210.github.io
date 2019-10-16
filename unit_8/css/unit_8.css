@@ -200,7 +200,7 @@ section.open {
 		 width: 100%;
 		 padding: 0;
 		 line-height: .5em;
-		 font-size: .5em;
+		 font-size: .75em;
 		 display:inline;
 		 clear: both;
 		}
@@ -212,6 +212,9 @@ section.open {
 		padding-top: 0;
 		text-shadow: 1px 1px 0 #000;
 		text-align: center;
+	}
+	.slogan{
+		font-size: 1.5em;
 	}
 	footer{
 		clear: both;
