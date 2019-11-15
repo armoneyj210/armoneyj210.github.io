@@ -1,10 +1,11 @@
 body{
     display: grid;
-    grid-template-rows: 100px 1fr 100px;
+    grid-template-rows: 150px 1fr 100px;
     grid-template-columns: 75px 1fr 75px;
     grid-template-areas: "header header header"
                          "aboutme main main"
-                         "footer footer footer"   
+                         "footer footer footer";
+    background: khaki;                        
 }
 header {
     background-color: indigo;
@@ -14,7 +15,8 @@ header {
 }
 .aboutme{
     grid-area: aboutme;
-    padding: 2em;
+    padding: 2%;
+    
 }
 header a {
     text-align: right;
