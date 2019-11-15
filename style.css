@@ -1,5 +1,20 @@
+body{
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 75px 1fr 75px;
+    grid-template-areas: "header header header"
+                         "aboutme main main"
+                         "footer footer footer"   
+}
 header {
     background-color: indigo;
     text-align: center;
     text-shadow: 1px 1px 2px khaki ;
+    grid-area: header;
+}
+header a {
+    text-align: right;
+}
+footer {
+    grid-area: footer;
 }
