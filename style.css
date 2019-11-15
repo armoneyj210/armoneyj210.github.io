@@ -14,6 +14,7 @@ header {
 }
 .aboutme{
     grid-area: aboutme;
+    padding: 2em;
 }
 header a {
     text-align: right;
