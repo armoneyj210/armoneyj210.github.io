@@ -40,9 +40,12 @@ div {
     
 }
 img{
-    display: grid;
+    width: 20em;
+    display: grid; 
     grid-row: 2;
     grid-column: 3;
+    margin-left: 20em;
+    
 }
 header a {
     grid-area: header;
